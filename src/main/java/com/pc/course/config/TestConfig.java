@@ -18,7 +18,6 @@ import com.pc.course.enums.OrderStatus;
 import com.pc.course.repositories.CategoryRepository;
 import com.pc.course.repositories.OrderItemRepository;
 import com.pc.course.repositories.OrderRepository;
-import com.pc.course.repositories.PaymentRepository;
 import com.pc.course.repositories.ProductRepository;
 import com.pc.course.repositories.UserRepository;
 
@@ -36,8 +35,7 @@ public class TestConfig implements CommandLineRunner {
 	private ProductRepository ProductRepository;
 	@Autowired
 	private OrderItemRepository orderItemRepository;
-	@Autowired
-	private PaymentRepository PayRepository;
+	
 
 	@Override
 	public void run(String... args) throws Exception {
